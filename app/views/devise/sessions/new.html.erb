@@ -1,5 +1,6 @@
-<h2>Sign in</h2>
-
+<div class="image">
+  <img alt="" src="http://dl.dropbox.com/u/21530367/DO%20NOT%20DELETE/parkplease/signin-box.png" /*width="350"*/  />
+  <div class="text-in">
 <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
   <div><%= f.label :email %><br />
   <%= f.email_field :email %></div>
@@ -15,3 +16,5 @@
 <% end %>
 
 <%= render "links" %>
+</div>
+</div>

@@ -1,3 +1,55 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body 
+{
+  background-image: url("http://dl.dropbox.com/u/21530367/DO%20NOT%20DELETE/parkplease/pp-bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+background-attachment: fixed;
+background-origin: initial;
+background-clip: initial;
+background-color: grey;
+ /* font-family: Roman;*/
+font-family: 'Rokkitt', serif;
+color: #4a4a4a;
+  }
+  .image {
+	position:relative;
+	left:400px;
+	vertical-align: left;  	
+	
+}
+
+.image .text-up 
+{
+	position:absolute;
+	bottom:80px; /* in conjunction with left/right property, decides the text position */
+	left:80px;
+	width:820px; /* optional, though better have one */
+
+}
+
+.image .text-in 
+{
+	position:absolute;
+	bottom:60px; /* in conjunction with left/right property, decides the text position */
+	left:80px;
+	width:820px; /* optional, though better have one */
+	
+}
+
+.nav
+{
+	text-align:center;
+
+}
+
+
+
+
+
